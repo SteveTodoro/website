@@ -7,7 +7,7 @@
   --color-cyan:   #00FFFF;
   --color-bg:     #000000;
   --font-pixel:   'Press Start 2P', monospace;
-  --glow-red:     0 0 6px rgba(255, 0, 0, 0.7);
+  --glow-red:     0 0 3px rgba(255, 0, 0, 0.6);
   --glow-cyan:    0 0 10px #00FFFF, 0 0 20px #00FFFF;
   --glow-yellow:  0 0 10px #FFD700, 0 0 20px #FFD700;
 }
@@ -223,19 +223,7 @@ p {
   box-shadow: var(--glow-yellow);
 }
 
-/* ─── Hero ──────────────────────────────────────────────────── */
-.hero {
-  text-align: center;
-  padding: 0 0 64px;
-}
-
-.hero__banner {
-  width: 100%;
-  max-width: 100%;
-  display: block;
-  image-rendering: auto;
-}
-
+/* ─── Hero CTA ──────────────────────────────────────────────── */
 .hero__cta {
   margin-top: 40px;
 }
@@ -255,16 +243,90 @@ p {
   margin-bottom: 40px;
 }
 
-.video-wrapper {
+.video-section .section__heading::after {
+  display: none;
+}
+
+/* ─── Phone Mockup ──────────────────────────────────────────── */
+.phone-mockup {
   position: relative;
   display: inline-block;
-  max-width: 360px;
-  width: 100%;
-  border: 3px solid var(--color-cyan);
-  box-shadow: 0 0 20px var(--color-cyan), 0 0 40px rgba(0, 255, 255, 0.3);
-  border-radius: 4px;
-  overflow: hidden;
+  width: 280px;
+  background: #1c1c1e;
+  border-radius: 48px;
+  padding: 14px 10px;
+  box-shadow:
+    0 0 0 2px #3a3a3c,
+    0 0 0 4px #1c1c1e,
+    0 0 0 6px #3a3a3c,
+    0 0 40px rgba(0, 255, 255, 0.25),
+    0 0 80px rgba(0, 255, 255, 0.1);
+}
+
+/* Volume buttons (left side) */
+.phone-btn {
+  position: absolute;
+  background: #2c2c2e;
+  border-radius: 3px;
+  left: -5px;
+}
+
+.phone-btn--vol-up {
+  top: 96px;
+  width: 4px;
+  height: 36px;
+  box-shadow: -1px 0 0 #111;
+}
+
+.phone-btn--vol-down {
+  top: 144px;
+  width: 4px;
+  height: 36px;
+  box-shadow: -1px 0 0 #111;
+}
+
+/* Power button (right side) */
+.phone-btn--power {
+  right: -5px;
+  top: 116px;
+  width: 4px;
+  height: 52px;
+  box-shadow: 1px 0 0 #111;
+}
+
+/* Screen area */
+.phone-screen {
   background: #000;
+  border-radius: 38px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Dynamic Island notch */
+.phone-notch {
+  flex-shrink: 0;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+}
+
+.phone-notch::after {
+  content: '';
+  width: 90px;
+  height: 20px;
+  background: #1c1c1e;
+  border-radius: 10px;
+}
+
+/* Video fills screen */
+.video-wrapper {
+  position: relative;
+  flex: 1;
+  background: #000;
+  overflow: hidden;
 }
 
 .video-wrapper video {
@@ -279,27 +341,45 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.45);
   cursor: pointer;
   transition: background 0.2s;
 }
 
 .video-overlay:hover {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.25);
 }
 
 .play-btn {
   width: 0;
   height: 0;
-  border-top: 28px solid transparent;
-  border-bottom: 28px solid transparent;
-  border-left: 50px solid var(--color-cyan);
-  filter: drop-shadow(0 0 12px var(--color-cyan));
+  border-top: 24px solid transparent;
+  border-bottom: 24px solid transparent;
+  border-left: 42px solid var(--color-cyan);
+  filter: drop-shadow(0 0 10px var(--color-cyan));
   transition: filter 0.2s;
 }
 
 .video-overlay:hover .play-btn {
-  filter: drop-shadow(0 0 20px var(--color-cyan));
+  filter: drop-shadow(0 0 18px var(--color-cyan));
+}
+
+/* Home indicator bar */
+.phone-home-bar {
+  flex-shrink: 0;
+  height: 24px;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phone-home-bar::after {
+  content: '';
+  width: 80px;
+  height: 4px;
+  background: #444;
+  border-radius: 2px;
 }
 
 /* ─── Screenshots ───────────────────────────────────────────── */
@@ -314,10 +394,11 @@ p {
 
 .screenshot-strip {
   display: flex;
+  justify-content: center;
   gap: 20px;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
-  padding: 24px 24px 32px;
+  padding: 24px 40px 32px;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: thin;
   scrollbar-color: var(--color-cyan) transparent;

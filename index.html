@@ -24,6 +24,7 @@
         <img src="assets/pixelmathlogo.png" alt="Pixel Math Logo">
       </a>
       <ul class="nav__links">
+        <li><a href="about.html">About</a></li>
         <li><a href="stickers.html">Stickers</a></li>
         <li>
           <a class="nav-icon" href="https://twitter.com/pixelmathgame" target="_blank" rel="noopener" aria-label="Twitter / X">
@@ -36,14 +37,36 @@
       </ul>
     </nav>
 
-    <!-- HERO -->
-    <section class="hero">
-      <img
-        class="hero__banner"
-        src="assets/pixel_math_feature.png"
-        alt="Pixel Math — retro arcade math game"
-        fetchpriority="high"
-      >
+    <!-- VIDEO -->
+    <section class="video-section">
+      <h2 class="section__heading">RETRO ARCADE MATH GAME FOR KIDS</h2>
+
+      <div class="phone-mockup">
+        <!-- Side buttons -->
+        <div class="phone-btn phone-btn--vol-up"></div>
+        <div class="phone-btn phone-btn--vol-down"></div>
+        <div class="phone-btn phone-btn--power"></div>
+
+        <!-- Screen -->
+        <div class="phone-screen">
+          <div class="phone-notch"></div>
+          <div class="video-wrapper" id="videoWrapper">
+            <video
+              id="gameVideo"
+              poster="assets/pixel_math_layered_cover.png"
+              preload="metadata"
+              playsinline
+            >
+              <source src="assets/Promovid/Pixel%20Math.mp4" type="video/mp4">
+            </video>
+            <div class="video-overlay" id="videoOverlay" onclick="playVideo()">
+              <div class="play-btn"></div>
+            </div>
+          </div>
+          <div class="phone-home-bar"></div>
+        </div>
+      </div>
+
       <div class="hero__cta">
         <a
           class="btn-retro btn-retro--play"
@@ -53,25 +76,6 @@
         >
           GET IT ON GOOGLE PLAY
         </a>
-      </div>
-    </section>
-
-    <!-- VIDEO -->
-    <section class="video-section">
-      <h2 class="section__heading">WATCH THE TRAILER</h2>
-
-      <div class="video-wrapper" id="videoWrapper">
-        <video
-          id="gameVideo"
-          poster="assets/pixel_math_layered_cover.png"
-          preload="metadata"
-          playsinline
-        >
-          <source src="assets/Promovid/Pixel%20Math.mp4" type="video/mp4">
-        </video>
-        <div class="video-overlay" id="videoOverlay" onclick="playVideo()">
-          <div class="play-btn"></div>
-        </div>
       </div>
     </section>
 
@@ -85,16 +89,13 @@
           <img src="assets/Screenshots/242.jpg" alt="Pixel Math screenshot 1" loading="lazy">
         </div>
         <div class="screenshot-frame">
-          <img src="assets/Screenshots/243.jpg" alt="Pixel Math screenshot 2" loading="lazy">
+          <img src="assets/Screenshots/244.jpg" alt="Pixel Math screenshot 2" loading="lazy">
         </div>
         <div class="screenshot-frame">
-          <img src="assets/Screenshots/244.jpg" alt="Pixel Math screenshot 3" loading="lazy">
+          <img src="assets/Screenshots/246.jpg" alt="Pixel Math screenshot 3" loading="lazy">
         </div>
         <div class="screenshot-frame">
-          <img src="assets/Screenshots/246.jpg" alt="Pixel Math screenshot 4" loading="lazy">
-        </div>
-        <div class="screenshot-frame">
-          <img src="assets/Screenshots/247.jpg" alt="Pixel Math screenshot 5" loading="lazy">
+          <img src="assets/Screenshots/247.jpg" alt="Pixel Math screenshot 4" loading="lazy">
         </div>
       </div>
     </section>
@@ -102,6 +103,7 @@
     <!-- FOOTER -->
     <footer class="footer">
       <ul class="footer__links">
+        <li><a href="about.html">About</a></li>
         <li><a href="stickers.html">Stickers</a></li>
         <li><a href="privacy.html">Privacy Policy</a></li>
         <li><a href="https://twitter.com/pixelmathgame" target="_blank" rel="noopener">Twitter / X</a></li>
