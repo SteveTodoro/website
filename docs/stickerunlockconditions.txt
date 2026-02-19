@@ -1,0 +1,239 @@
+STICKERS LIST (00–78)
+=====================
+
+00 - Zero
+     Unlock: Score zero in any game
+
+01 - Player 001
+     Unlock: Play a game in game mode
+
+02 - Skibidy
+     Unlock: Get 3 perfect rounds
+
+03 - Tun Tun
+     Unlock: Get 5 perfect rounds
+
+04 - Cracky
+     Unlock: Get 8 perfect rounds
+
+05 - Foltyn
+     Unlock: Complete 8 games
+
+06 - Thanos
+     Unlock: Play a game on hard difficulty
+
+07 - Steve
+     Unlock: Get 12 perfect rounds
+
+08 - Riz
+     Unlock: Complete 15 games
+
+09 - Rumi
+     Unlock: Get 15 perfect rounds
+
+10 - Hot Streak
+     Unlock: Get a 10 streak
+
+11 - King
+     Unlock: Complete challenge 1
+
+12 - Captain
+     Unlock: Perfect score for all operations on hard difficulty
+
+13 - Swift
+     Unlock: Perfect score under 22s on easy difficulty
+
+14 - Pork
+     Unlock: Play a game in medium mode
+
+15 - Doge
+     Unlock: Complete 25 games
+
+16 - Math Bound
+     Unlock: Use any 3-streak power-up 3 times
+
+17 - Patrick
+     Unlock: Use any 6-streak power-up 3 times
+
+18 - Pudgy
+     Unlock: Use any 3-streak power-up 10 times
+
+19 - Sniper
+     Unlock: Get a streak of 15 correct answers
+
+20 - Smurf
+     Unlock: Complete 35 games
+
+21 - NPC
+     Unlock: Unlock 30 stickers
+
+22 - Carlos
+     Unlock: Perfect score on insane mode under 52 secs
+
+23 - Pepe
+     Unlock: Complete 30 games
+
+24 - Giga
+     Unlock: Score 14 or more in hard mode
+
+25 - Rose
+     Unlock: Complete 40 games
+
+26 - Rock
+     Unlock: Score 3 or below in hard mode
+
+27 - Bronze
+     Unlock: Complete challenge 3
+
+28 - Silver
+     Unlock: Complete challenge 6
+
+29 - Gold
+     Unlock: Complete challenge 9
+
+30 - Platinum
+     Unlock: Unlock 75 stickers
+
+31 - Perfect Easy
+     Unlock: Perfect score on easy mode
+
+32 - Perfect Med
+     Unlock: Perfect score on medium mode
+
+33 - Perfect Hard
+     Unlock: Perfect score on hard mode
+
+34 - Perfect Insane
+     Unlock: Perfect score on insane mode
+
+35 - Ice Cold
+     Unlock: Use Time Freeze power-up 3 times
+
+36 - Simple
+     Unlock: Use Simplify power-up 3 times
+
+37 - Daniel
+     Unlock: Get 25 perfect rounds
+
+38 - Salty
+     Unlock: Get 50 incorrect answers
+
+39 - Chocolate
+     Unlock: Reach a total play time of 10 mins
+
+40 - Mushroom
+     Unlock: Complete 50 games
+
+41 - Banana
+     Unlock: Complete 60 games
+
+42 - Milkshake
+     Unlock: Reach a total playtime of 20 mins
+
+43 - Pizza
+     Unlock: Reach a total playtime of 25 mins
+
+44 - Tacos
+     Unlock: Get 100 incorrect answers
+
+45 - Lollipop
+     Unlock: Reach a total playtime of 120 mins
+
+46 - Soda Pop
+     Unlock: Complete challenge 2
+
+47 - Sushi
+     Unlock: Reach a total playtime of 35 mins
+
+48 - Hamburger
+     Unlock: Reach a total playtime of 45 mins
+
+49 - Popcorn
+     Unlock: Reach a total playtime of 60 mins
+
+50 - Watermelon
+     Unlock: Complete 70 games
+
+51 - Ohayo Boss
+     Unlock: Perfect score for all operations on medium difficulty
+
+52 - Owner
+     Unlock: Score 12 or more on insane mode
+
+53 - Thank U Next
+     Unlock: Use Fast Forward power-up 3 times
+
+54 - Karate Chop
+     Unlock: Use Fifty-Fifty power-up 3 times
+
+55 - Goat
+     Unlock: Get 55 stickers
+
+56 - Back In Time
+     Unlock: Use Back In Time power-up 3 times
+
+57 - Victory
+     Unlock: Complete challenge 4
+
+58 - Insane
+     Unlock: Unlock insane mode
+
+59 - Speedy
+     Unlock: Perfect score at 32 secs or below on medium difficulty
+
+60 - Boom
+     Unlock: Complete challenge 8
+
+61 - Calculated
+     Unlock: Complete challenge 5
+
+62 - Yessir
+     Unlock: Complete challenge 7
+
+63 - Master
+     Unlock: Perfect score for all operations on easy difficulty
+
+64 - 100
+     Unlock: 100 correct answers
+
+65 - 500
+     Unlock: 500 correct answers
+
+66 - 1000
+     Unlock: 1000 correct answers
+
+67 - 67 Kid
+     Unlock: 67 correct answers
+
+68 - Thumbs Up
+     Unlock: Complete 80 games
+
+69 - On Fire
+     Unlock: Perfect score below 32 secs on hard difficulty
+
+70 - Mecha
+     Unlock: Use a power-up at its max level (6 streak)
+
+71 - Baby
+     Unlock: Get a score of 5 or less on easy mode
+
+72 - Pixel Lord
+     Unlock: Get 50 perfect rounds
+
+73 - Math Wiz
+     Unlock: Play practice mode
+
+74 - Shifty
+     Unlock: Play challenge 7
+
+75 - Mathdalorian
+     Unlock: Perfect score on practice mode
+
+76 - Almost
+     Unlock: Score one less than perfect (score of 15)
+
+77 - Autopilot
+     Unlock: Get 77 perfect rounds
+
+78 - Labitbu
+     Unlock: Complete 90 games
