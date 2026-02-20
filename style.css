@@ -686,7 +686,7 @@ p {
 }
 
 .powerup-video-placeholder {
-  width: 100%;
+  width: 67%;
   aspect-ratio: 9 / 16;
   border: 2px solid var(--color-cyan);
   border-radius: 6px;
