@@ -238,6 +238,13 @@ p {
 }
 
 /* ─── Video Section ─────────────────────────────────────────── */
+.hero-title-img {
+  display: block;
+  margin: 0 auto 32px;
+  max-width: 480px;
+  width: 80%;
+}
+
 .video-section {
   padding: 96px 24px 64px;
   text-align: center;
