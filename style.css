@@ -648,7 +648,8 @@ p {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 32px;
-  margin-bottom: 48px;
+  width: 80%;
+  margin: 0 auto 48px;
 }
 
 .powerup-card {
@@ -669,8 +670,8 @@ p {
 }
 
 .powerup-icon {
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   object-fit: contain;
   image-rendering: pixelated;
   margin-bottom: 20px;
