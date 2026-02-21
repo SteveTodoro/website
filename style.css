@@ -241,7 +241,7 @@ p {
 .hero-title-img {
   display: block;
   margin: 0 auto 32px;
-  max-width: 480px;
+  max-width: 960px;
   width: 80%;
 }
 
