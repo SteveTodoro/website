@@ -817,6 +817,10 @@ p {
   h1 { font-size: 14px; }
   h2 { font-size: 11px; }
 
+  .hero-title-img {
+    width: 95%;
+  }
+
   .nav__logo img {
     height: 30px;
   }
