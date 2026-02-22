@@ -209,9 +209,9 @@ p {
 
 .hero-cta-text {
   margin-top: 32px;
-  font-size: clamp(16px, 4vw, 28px);
-  color: var(--color-cyan);
-  text-shadow: var(--glow-cyan);
+  font-size: clamp(14px, 3.5vw, 24px);
+  color: var(--color-red);
+  text-shadow: var(--glow-red);
   letter-spacing: 0.08em;
   text-align: center;
 }
