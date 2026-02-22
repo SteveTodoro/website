@@ -207,6 +207,15 @@ p {
   text-align: center;
 }
 
+.hero-cta-text {
+  margin-top: 10px;
+  font-size: 0.55rem;
+  color: var(--color-cyan);
+  text-shadow: var(--glow-cyan);
+  letter-spacing: 0.08em;
+  text-align: center;
+}
+
 /* ─── Section ───────────────────────────────────────────────── */
 .section {
   max-width: 1200px;
