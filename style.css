@@ -209,7 +209,7 @@ p {
 
 .hero-cta-text {
   margin-top: 10px;
-  font-size: 0.55rem;
+  font-size: clamp(12px, 2vw, 20px);
   color: var(--color-cyan);
   text-shadow: var(--glow-cyan);
   letter-spacing: 0.08em;
