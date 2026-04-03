@@ -207,6 +207,10 @@ p {
   text-align: center;
 }
 
+.free-label--big {
+  font-size: 0.85rem;
+}
+
 .hero-cta-text {
   margin-top: 32px;
   font-size: clamp(14px, 3.5vw, 24px);
