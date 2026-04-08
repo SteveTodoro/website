@@ -596,7 +596,7 @@ p {
 .sticker-cta {
   text-align: center;
   color: var(--color-cyan);
-  font-size: 9px;
+  font-size: 16px;
   margin-top: 8px;
   text-shadow: var(--glow-cyan);
 }
