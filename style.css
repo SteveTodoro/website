@@ -250,6 +250,12 @@ p {
   margin-top: 40px;
 }
 
+.hero-feature-img {
+  display: block;
+  max-width: 100%;
+  margin: 48px auto 0;
+}
+
 /* ─── Video Section ─────────────────────────────────────────── */
 .hero-title-img {
   display: block;
@@ -760,7 +766,7 @@ p {
 .powerup-unlock-hint {
   text-align: center;
   color: var(--color-yellow);
-  font-size: 9px;
+  font-size: 18px;
   text-shadow: var(--glow-yellow);
   letter-spacing: 0.08em;
 }
